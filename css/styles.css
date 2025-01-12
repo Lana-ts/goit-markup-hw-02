@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
         color: #434455;
-        background-color: background: #fff;
+        background-color: #fff;
 }
 
 a {
@@ -68,7 +68,7 @@ color: #404bbf;
 .hero-title {
 font-weight: 700;
     font-size: 56px;
-    line-height: 1.08;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -80,9 +80,12 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
         cursor:pointer;
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+    background-color: #404BBF;
 }
 
 .features-title {
@@ -103,10 +106,11 @@ font-weight: 500;
 .team-title {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-person {
@@ -126,13 +130,22 @@ font-weight: 500;
     color: #434455;
 }
 
+.team {
+background-color: #F4F4FD;
+}
+
+.team-link {
+background-color: #FFFFFF    
+}
+
 .portfolio-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .portfolio-title-second {
